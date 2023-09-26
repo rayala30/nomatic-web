@@ -22,7 +22,7 @@ The OpenMat Finder tool reimagines training optimization by integrating location
 ## Nomatic (Mat)chmaker CLI Application:
 The first phase of Nomatic began as a command line application where athletes can manually enter match information, such as athlete name, match belt rank, match weight, time limit, etc. A digital scoreboard would then be the primary interface the user interacts with as the match progresses. The digital scoreboard has a countdown clock as well as buttons to add/subtract values to the match points, advantages, and penalties.
 
-![Alt text](<nomatic-web/public/preview/Nomatic_MatchMaker CLI.png>)
+![Alt text](<public/preview/Nomatic_MatchMaker CLI.png>)
 
 ## Work-In-Progress
 The WIP images below are a next phase preview for the Nomatic fullstack web application.
@@ -34,28 +34,28 @@ Please see link below for WIP application prototype:
 
 #### Landing Page
 
-![Alt text](<nomatic-web/public/preview/Nomatic_Home Page.png>)
+![Alt text](<public/preview/Nomatic_Home Page.png>)
 
 
 #### Account Creation Page
 
-![Alt text](<nomatic-web/public/preview/Nomatic_Account Creation.png>)
+![Alt text](<public/preview/Nomatic_Account Creation.png>)
 
 
 #### Event Registration Page
 
-![Alt text](<nomatic-web/public/preview/Nomatic_Event registration.png>)
+![Alt text](<public/preview/Nomatic_Event registration.png>)
 
 
 #### User Profile Page
 
-![Alt text](<nomatic-web/public/preview/Nomatic_User Profile.png>)
+![Alt text](<public/preview/Nomatic_User Profile.png>)
 
 
 #### Bracket Page
 
-![Alt text](<nomatic-web/public/preview/Nomatic Bracket.png>)
+![Alt text](<public/preview/Nomatic Bracket.png>)
 
 #### Scoreboard Page
 
-![Alt text](<nomatic-web/public/preview/Nomatic Timer & Scoreboard.png>)
+![Alt text](<public/preview/Nomatic Timer & Scoreboard.png>)
