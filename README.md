@@ -22,7 +22,7 @@ The OpenMat Finder tool reimagines training optimization by integrating location
 ## Nomatic (Mat)chmaker CLI Application:
 The first phase of Nomatic began as a command line application where athletes can manually enter match information, such as athlete name, match belt rank, match weight, time limit, etc. A digital scoreboard would then be the primary interface the user interacts with as the match progresses. The digital scoreboard has a countdown clock as well as buttons to add/subtract values to the match points, advantages, and penalties.
 
-![Nomatic_MatchMaker CLI.png](nomatic%2Fsrc%2Fmain%2Fresources%2Fpreview%2FNomatic_MatchMaker%20CLI.png)
+![Alt text](<nomatic-web/public/preview/Nomatic_MatchMaker CLI.png>)
 
 ## Work-In-Progress
 The WIP images below are a next phase preview for the Nomatic fullstack web application.
