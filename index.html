@@ -8,32 +8,58 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/custom.css" />
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" async="true"></script>
-    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Unica+One&display=swap" rel="stylesheet">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" async="true"></script>
+
 
     <title>Nomatic</title>
   </head>
 
   <body id="index">
 
-
       <header>
-        
-        <img class="logomark" src="src/img/Logomark.png" alt="Nomatic Logo"/>
-        
-        <nav>
-            <ul>
-                <li><a href="#">Mat Finder</a></li>
-                <li><a href="#">Create Open Mat</a></li>
-                <li><a href="#">Match Maker</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
+
+        <nav class="navbar navbar-expand-sm bg-transparent fixed-top">
+          <div class="container-fluid">
+            <img src="src/img/Logomark.png" alt="Nomatic Logo">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" style="background-color: #f5f5f5; color: black">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+              <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" style="color: white;">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="mat-finder-nav" style="color: white;">Mat Finder</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="create-openmat-nav" style="color: white;">Create Openmat</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="matchmaker-nav" style="color: white;">Match Maker</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="profile-nav" style="color: white;">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="faq-nav" style="color: white;">FAQ</a>
+                </li>
+                
+              </ul>
+      
+            </div>
+          </div>
         </nav>
+
+
       </header>
 
       <main id="main-grid">
