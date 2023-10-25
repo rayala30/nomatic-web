@@ -1,5 +1,5 @@
 <template>
-    <!-- <nav class="navbar navbar-expand-sm bg-transparent fixed-top">
+    <nav class="navbar navbar-expand-sm bg-transparent fixed-top">
           <div class="container-fluid">
             <img src="src/img/Logomark.png" alt="Nomatic Logo">
             
@@ -33,7 +33,7 @@
       
             </div>
           </div>
-        </nav> -->
+        </nav>
 </template>
 
 
