@@ -43,5 +43,42 @@
 
 
 <style scoped>
+  /* NAV BAR SECTION */
 
+.logo {
+  height: 300px;
+}
+
+img {
+  height: 100%;
+}
+
+nav {
+  flex-grow: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 0 20px 0 0;
+  margin-left: 20px;
+}
+
+a:hover {
+  color: rgb(190, 190, 190);
+}
+
+a {
+color: white;
+text-decoration: none;
+}
 </style>
