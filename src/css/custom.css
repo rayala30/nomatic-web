@@ -91,7 +91,7 @@ text-align: center;
 
 /* LANDING PAGE CSS */
 
-#main-grid {
+/* #main-grid {
 display: grid;
 grid-template-columns: 200px 2fr 3fr;
 grid-template-rows: 1fr 225px 50px 125px 1fr 1fr;
@@ -164,7 +164,7 @@ display: flex;
 text-align: center;
 align-items: flex-start;
 justify-content: center;
-}
+} */
 
 /* OVERALL BACKGROUND IMAGE */
 

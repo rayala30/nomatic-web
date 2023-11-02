@@ -24,11 +24,9 @@ export default {
 <style>
 * {
   box-sizing: border-box;
-}
-
-html {
   font-family: Inter, Helvetica;
 }
+
 
 body {
   background-color: rgba(255, 255, 255, 1);
@@ -40,9 +38,11 @@ body {
   margin: 0;
 }
 
+
 main {
   width: 100%;
   height: 100vh;
   position: fixed;
 }
+
 </style>
