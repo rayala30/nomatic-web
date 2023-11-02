@@ -1,30 +1,49 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <app-header id="app-header" title="Nomatic"/>
+    <main id="main-content">
+      <router-view />
+    </main>
+    <app-footer id="app-footer"></app-footer>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+
+
+<script>
+// import HelloWorld from './components/HelloWorld.vue'
+import AppHeader from './components/AppHeader.vue';
+import AppFooter from './components/AppFooter.vue';
+
+export default {
+  components: {AppHeader, AppFooter, MainNav},
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+</script>
+
+
+
+<style>
+* {
+  box-sizing: border-box;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+html {
+  font-family: Inter, Helvetica;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 1);
+  background: linear-gradient(180deg, rgb(0, 24, 113) 0%, rgb(0, 9.93, 46.75) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
 }
 </style>

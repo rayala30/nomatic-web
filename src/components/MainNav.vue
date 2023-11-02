@@ -66,7 +66,7 @@ ul {
 }
 
 li {
-  font-size: 15px;
+  font-size: 16px;
   color: #ffffff;
   font-weight: 500;
   padding: 0 20px 0 0;
