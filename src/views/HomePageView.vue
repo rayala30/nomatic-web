@@ -1,7 +1,9 @@
 <template>
-    <div>
-        
+    <div id="logo">
+      <img src="src/img/logo-gold.svg" alt="Nomatic Logo">
     </div>
+
+    <div id="nomatic">NOMATIC</div>
 </template>
 
 <script>
@@ -10,7 +12,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 body#index::before {
   content: "";
   position: fixed;
