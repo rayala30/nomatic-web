@@ -1,5 +1,6 @@
 <template>
-    <main id="home-grid">
+    <body class="home-body">
+      <main id="home-grid">
       <div id="logo">
         <img src="../img/logo-gold.svg" alt="Nomatic Logo">
       </div>
@@ -28,6 +29,7 @@
         
       <div id="greeting-2">Get rolling!</div>
     </main>
+    </body>
 </template>
 
 <script>
@@ -37,9 +39,9 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
-body#index::before {
+body.home-body::before {
   content: "";
   position: fixed;
   top: 0;
@@ -47,11 +49,11 @@ body#index::before {
   width: 100%;
   height: 100%;
   display:flex;
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
-  background-image: url('@/css/img-css/rolling-image.png'); /* Use the same image as the background */
+  align-items: center; 
+  justify-content: center; 
+  background-image: url('@/css/img-css/rolling-image.png'); 
   filter: grayscale(100%);
-  background-blend-mode: luminosity; /* Adjust blend mode as needed */
+  background-blend-mode: luminosity; 
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;

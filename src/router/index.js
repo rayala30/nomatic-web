@@ -4,6 +4,8 @@ import { useStore } from 'vuex'
 
 // Import components
 import HomePageView from '../views/HomePageView.vue';
+import LoginView from '../views/LoginView.vue';
+
 
 
 /**
@@ -20,6 +22,35 @@ const routes = [
     name: 'homePage',
     component: HomePageView,
   },
+
+  {
+    path: '/login',
+    name: "login",
+    component: LoginView,
+    meta: {
+      requiresAuth: false
+    }
+  },
+
+  // {
+  //   path: '/logout',
+  //   name: "logout",
+  //   component: LogoutView,
+  //   meta: {
+  //     requiresAuth: false
+  //   }
+  // },
+
+  // {
+  //   path: "/register",
+  //   name: "register",
+  //   component: RegisterView,
+  //   meta: {
+  //     requiresAuth: false
+  //   }
+  // },
+
+
 ];
 
 // Create the router
